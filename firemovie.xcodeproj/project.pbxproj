@@ -10,7 +10,6 @@
 		A291706A2B18CFF900E20BA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29170692B18CFF900E20BA3 /* AppDelegate.swift */; };
 		A291706C2B18CFF900E20BA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291706B2B18CFF900E20BA3 /* SceneDelegate.swift */; };
 		A291706E2B18CFF900E20BA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A291706D2B18CFF900E20BA3 /* ViewController.swift */; };
-		A29170712B18CFF900E20BA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A291706F2B18CFF900E20BA3 /* Main.storyboard */; };
 		A29170742B18CFF900E20BA3 /* firemovie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A29170722B18CFF900E20BA3 /* firemovie.xcdatamodeld */; };
 		A29170762B18CFFD00E20BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29170752B18CFFD00E20BA3 /* Assets.xcassets */; };
 		A29170792B18CFFD00E20BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29170772B18CFFD00E20BA3 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		A29170692B18CFF900E20BA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A291706B2B18CFF900E20BA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A291706D2B18CFF900E20BA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A29170702B18CFF900E20BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A29170732B18CFF900E20BA3 /* firemovie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = firemovie.xcdatamodel; sourceTree = "<group>"; };
 		A29170752B18CFFD00E20BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A29170782B18CFFD00E20BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				A29170692B18CFF900E20BA3 /* AppDelegate.swift */,
 				A291706B2B18CFF900E20BA3 /* SceneDelegate.swift */,
 				A291706D2B18CFF900E20BA3 /* ViewController.swift */,
-				A291706F2B18CFF900E20BA3 /* Main.storyboard */,
 				A29170752B18CFFD00E20BA3 /* Assets.xcassets */,
 				A29170772B18CFFD00E20BA3 /* LaunchScreen.storyboard */,
 				A291707A2B18CFFD00E20BA3 /* Info.plist */,
@@ -130,7 +127,6 @@
 			files = (
 				A29170792B18CFFD00E20BA3 /* LaunchScreen.storyboard in Resources */,
 				A29170762B18CFFD00E20BA3 /* Assets.xcassets in Resources */,
-				A29170712B18CFF900E20BA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A291706F2B18CFF900E20BA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A29170702B18CFF900E20BA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A29170772B18CFFD00E20BA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,7 +283,7 @@
 				INFOPLIST_FILE = firemovie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +310,7 @@
 				INFOPLIST_FILE = firemovie/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
