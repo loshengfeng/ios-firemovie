@@ -13,6 +13,9 @@
 		A29170742B18CFF900E20BA3 /* firemovie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A29170722B18CFF900E20BA3 /* firemovie.xcdatamodeld */; };
 		A29170762B18CFFD00E20BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29170752B18CFFD00E20BA3 /* Assets.xcassets */; };
 		A29170792B18CFFD00E20BA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29170772B18CFFD00E20BA3 /* LaunchScreen.storyboard */; };
+		A29170822B18D74F00E20BA3 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29170812B18D74F00E20BA3 /* MainTabBarViewController.swift */; };
+		A29170842B18D77600E20BA3 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29170832B18D77600E20BA3 /* MovieViewController.swift */; };
+		A29170862B18D78800E20BA3 /* TvSeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29170852B18D78800E20BA3 /* TvSeriesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A29170752B18CFFD00E20BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A29170782B18CFFD00E20BA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A291707A2B18CFFD00E20BA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29170812B18D74F00E20BA3 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		A29170832B18D77600E20BA3 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		A29170852B18D78800E20BA3 /* TvSeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvSeriesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		A29170682B18CFF900E20BA3 /* firemovie */ = {
 			isa = PBXGroup;
 			children = (
+				A29170802B18D71D00E20BA3 /* UI */,
 				A29170692B18CFF900E20BA3 /* AppDelegate.swift */,
 				A291706B2B18CFF900E20BA3 /* SceneDelegate.swift */,
 				A291706D2B18CFF900E20BA3 /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				A29170722B18CFF900E20BA3 /* firemovie.xcdatamodeld */,
 			);
 			path = firemovie;
+			sourceTree = "<group>";
+		};
+		A29170802B18D71D00E20BA3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A29170812B18D74F00E20BA3 /* MainTabBarViewController.swift */,
+				A29170832B18D77600E20BA3 /* MovieViewController.swift */,
+				A29170852B18D78800E20BA3 /* TvSeriesViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,10 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29170822B18D74F00E20BA3 /* MainTabBarViewController.swift in Sources */,
 				A29170742B18CFF900E20BA3 /* firemovie.xcdatamodeld in Sources */,
 				A291706E2B18CFF900E20BA3 /* ViewController.swift in Sources */,
 				A291706A2B18CFF900E20BA3 /* AppDelegate.swift in Sources */,
 				A291706C2B18CFF900E20BA3 /* SceneDelegate.swift in Sources */,
+				A29170842B18D77600E20BA3 /* MovieViewController.swift in Sources */,
+				A29170862B18D78800E20BA3 /* TvSeriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
